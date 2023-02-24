@@ -20,12 +20,12 @@ const Top = function() {
                     </div>
                     <div className="top__field">
                         <img className="top__tick" src="./check.svg" />
-                        <img className="top__tick top__tickok" src="./checkok.svg" />
+                        <img className="top__tick top__hide" src="./checkok.svg" />
                         <p className="top__todo">dscsdc</p>
                     </div>
                     <div className="top__field">
                         <img className="top__tick" src="./check.svg" />
-                        <img className="top__tick top__tickok" src="./checkok.svg" />
+                        <img className="top__tick top__hide" src="./checkok.svg" />
                         <p className="top__todo">dscsdc</p>
                     </div>
                 </div>
