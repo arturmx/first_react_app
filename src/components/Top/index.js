@@ -1,5 +1,16 @@
 import './top.scss';
 
+const tick = document.querySelector('.top__tick');
+
+tick.addEventListener('click', function() {
+    if (tick.classList.contains('top__hide')) {
+        tick.classList.remove('top__hide')
+    } else (
+        tick.classList.add('top__hide')
+    )
+}
+)
+
 const Top = function() {
     return (
         <div className="top">
