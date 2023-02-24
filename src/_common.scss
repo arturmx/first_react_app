@@ -1,0 +1,23 @@
+$primaryColor: #FFF;
+$secondaryColor: #112D4E;
+$tertriaryColor: #E5E5E5;
+
+body {
+    font-family: "Ubuntu", "sans-serif";
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$screen-sm: 767px;
+
+.container {
+    width:600px;
+    margin:auto;
+
+    @media screen and (max-width: $screen-sm) {
+        width:350px;
+    }
+}
+
+

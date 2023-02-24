@@ -1,0 +1,93 @@
+.top {
+    padding: 56px 0 517px;
+    background-color: #3F72AF;
+
+    &__box {
+        // background-color: $primaryColor;
+        background-color: #FFF;
+        border-radius: 10px;
+        padding-bottom: 55px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__h1 {
+        font-size: 40px;
+        line-height: 46px;
+        margin: 20px 0 10px;
+    }
+
+    &__form {
+        height: 32px;
+        width: 295px;
+        display: flex;
+        justify-content:center;
+    }
+
+    &__input {
+        width: 250px;
+        background-color: #DBE2EF;
+        border:1px solid #B1B1B166;
+        text-indent: 10px;
+        border-radius: 5px 0 0 5px;
+
+        @media screen and (max-width: 767px) {
+            width: 205px;
+        }
+    }
+
+    &__submit {
+        width: 45px;
+    }
+
+    &__buttonImg {
+        height: 100%;
+        object-fit: cover;
+        width: 45px;
+    }
+
+    &__line {
+        border: 1px solid #000;
+        width: 500px;
+        margin: 15px 0 15px;
+
+        // @media screen and (max-width: $screen-sm) {
+        //     width:320px;
+        // }
+
+        @media screen and (max-width: 767px) {
+            width: 320px;
+        }
+    }
+
+    &__field {
+        height: 55px;
+        width: 490px;
+        background-color: #DBE2EF;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+        position:relative;
+
+        @media screen and (max-width: 767px) {
+            width: 300px;
+        }
+    }
+
+    &__tick {
+        position:absolute;
+        left: 20px;
+        width: 24px;
+    }
+
+    &__todo {
+        color: #000;
+    }
+
+    &__hide {
+        display:none;
+    }
+}

@@ -1,13 +1,12 @@
-import Header from './components/Header'
-import Footer from './components/Footer'
+import './_reset.scss'
+import './_common.scss'
 import Top from './components/Top'
+
 
 function App() {
   return (
     <div className="App">
-      <Header />
       <Top />
-      <Footer />
     </div>
   );
 }

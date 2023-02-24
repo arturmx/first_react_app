@@ -1,7 +1,35 @@
+import './top.scss';
+
 const Top = function() {
     return (
-        <div>
-            Top
+        <div className="top">
+            <div className="container">
+                <div className="top__box">
+                    <h1 className="top__h1">To Do App</h1>
+                    <form className="top__form">
+                        <input className="top__input" placeholder="some words"></input>
+                        <button className="top__submit" type="submit">
+                            <img className="top__buttonImg" src="./input-plus.png" />
+                        </button>
+                    </form>
+                    <div className="top__line"></div>
+                    <div className="top__field">
+                        <img className="top__tick" src="./check.svg" />
+                        <img className="top__tick top__tickok" src="./checkok.svg" />
+                        <p className="top__todo">dscsdc</p>
+                    </div>
+                    <div className="top__field">
+                        <img className="top__tick" src="./check.svg" />
+                        <img className="top__tick top__tickok" src="./checkok.svg" />
+                        <p className="top__todo">dscsdc</p>
+                    </div>
+                    <div className="top__field">
+                        <img className="top__tick" src="./check.svg" />
+                        <img className="top__tick top__tickok" src="./checkok.svg" />
+                        <p className="top__todo">dscsdc</p>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
